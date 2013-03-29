@@ -1,0 +1,2 @@
+#!/system/bin/sh
+exec ./lib-picolisp/picolisp ./lib-picolisp/lib.l @ext.l "$@"
