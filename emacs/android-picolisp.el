@@ -23,7 +23,7 @@
       (let ((buffer (get-buffer-create (format "*%s*" name))))
         (start-process name buffer "adb" "push" native-picolisp-tar "/data/local/tmp/np.tar")
         (start-process name buffer "adb" "shell"
-                       "cd /data/local/tmp; rm -r pil np.tar; tar xf np.tar; rm -r np.tar;")
+                       "cd /data/local/tmp; rm -r pil lib-picolisp; tar xf np.tar; rm -r np.tar;")
         (message "Uploading picolisp - done.")))))
 
 (defun run-picolisp-adb ()
