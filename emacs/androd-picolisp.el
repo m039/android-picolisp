@@ -17,6 +17,10 @@
 ;; TODO: add upload of picolisp to android
 
 ;; phone
+(defun upload-picolisp-to-android()
+  (interactive)
+  )
+
 (defun run-picolisp-adb ()
   (interactive)
   (let ((default-directory ap-adb-directory))
