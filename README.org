@@ -1,2 +1,2 @@
 * About
-  This my personal project to study picolisp under android with emacs.
+  This my personal project to learn picolisp under android with emacs.
