@@ -1,2 +1,6 @@
 * About
   This my personal project to learn picolisp under android with emacs.
+* Why it may be useful for you
+  This project contains:
+  - android project to build native picolisp
+  - emacs functions to run picolisp on remote machine (by TRAMP)
